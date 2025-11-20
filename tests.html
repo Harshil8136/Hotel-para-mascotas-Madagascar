@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Spa Hotel - Test Harness</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="stylesheet" href="styles.css" />
+  
+  <script>
+    tailwind.config = {
+      theme: { /* ... (same as your index.html config) ... */ }
+    };
+  </script>
+  
+  <style>
+    body { padding: 2rem; }
+    .pass { color: green; font-weight: bold; }
+    .fail { color: red; font-weight: bold; }
+    pre {
+      background-color: #f4f4f4;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 1rem;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-family: monospace;
+      margin-top: 0.5rem;
+    }
+  </style>
+</head>
+<body class="bg-background text-foreground">
+
+  <h1 class="text-3xl font-bold mb-4">Dog Spa Chatbot Test Harness</h1>
+  <p class="text-muted-foreground mb-6">
+    Running the 10 example dialogues from PRD Section 16 to validate chatbot logic and data persistence.
+  </p>
+  
+  <div id="root-app" class="hidden"></div>
+  
+  <ul id="test-results" class="space-y-4">
+    <li class="text-lg font-medium text-muted-foreground">Loading test scripts...</li>
+  </ul>
+
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/htm@3/dist/htm.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/idb@8/build/iife/index-min.js"></script>
+  <script src="https://unpkg.com/lucide-react@0.395.0/dist/umd/lucide-react.js"></script>
+
+  <script>
+    // Mock the DOM element for React to render into (not visible)
+    const mockRoot = document.getElementById('root-app');
+  </script>
+  <script src="app.js"></script>
+
+  <script src="tests.js"></script>
+
+</body>
+</html>

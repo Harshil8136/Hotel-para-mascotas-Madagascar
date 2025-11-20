@@ -1,0 +1,188 @@
+{
+  "services": [
+    {
+      "id": "hotel",
+      "name": {
+        "en": "Hotel (Boarding)",
+        "es": "Hotel (Hospedaje)"
+      },
+      "description": {
+        "en": "Comfortable overnight stays in private suites",
+        "es": "Estadías cómodas en suites privadas"
+      },
+      "duration": "Per night",
+      "price": "$350 MXN",
+      "type": "boarding",
+      "image": "assets/images/boarding.jpg",
+      "longDescription": {
+        "en": "Your pet will be cared for with much love. Spacious play area. Individual rooms. Professional care.",
+        "es": "Tu mascota será atendida y cuidada con mucho amor. Amplia área de juegos. Cuartos individuales. Cuidado profesional."
+      }
+    },
+    {
+      "id": "guarderia",
+      "name": {
+        "en": "Daycare",
+        "es": "Guardería"
+      },
+      "description": {
+        "en": "Fun-filled days with supervised play",
+        "es": "Días llenos de diversión con juegos supervisados"
+      },
+      "duration": "Full day",
+      "price": "$200 MXN",
+      "type": "daycare",
+      "image": "assets/images/daycare.jpg",
+      "longDescription": {
+        "en": "Socialization and fun in a safe environment. Perfect for active pets!",
+        "es": "Socialización y diversión en un ambiente seguro. ¡Perfecto para mascotas activas!"
+      }
+    },
+    {
+      "id": "reubicacion",
+      "name": {
+        "en": "Relocation",
+        "es": "Reubicación"
+      },
+      "description": {
+        "en": "Professional pet relocation services",
+        "es": "Servicios profesionales de reubicación de mascotas"
+      },
+      "duration": "Custom",
+      "price": "Quote",
+      "type": "special",
+      "image": "assets/images/relocation.jpg",
+      "longDescription": {
+        "en": "We help move your pet safely to their new home, handling all logistics and care.",
+        "es": "Ayudamos a trasladar a su mascota de forma segura a su nuevo hogar, encargándonos de toda la logística y el cuidado."
+      }
+    },
+    {
+      "id": "transporte",
+      "name": {
+        "en": "Transport",
+        "es": "Transporte"
+      },
+      "description": {
+        "en": "Safe and comfortable pet transport",
+        "es": "Transporte de mascotas seguro y cómodo"
+      },
+      "duration": "Per trip",
+      "price": "Quote",
+      "type": "transport",
+      "image": "assets/images/transport.jpg",
+      "longDescription": {
+        "en": "Door-to-door transport service for your furry friends.",
+        "es": "Servicio de transporte puerta a puerta para sus amigos peludos."
+      }
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "faq_hours_en",
+      "lang": "en",
+      "q_variants": [
+        "What are your hours?",
+        "When are you open?",
+        "schedule"
+      ],
+      "answer": "We are open for reception. Please contact us to confirm specific drop-off and pick-up times.",
+      "category": "hours"
+    },
+    {
+      "id": "faq_hours_es",
+      "lang": "es",
+      "q_variants": [
+        "¿Cuál es su horario?",
+        "¿Cuándo abren?",
+        "horario"
+      ],
+      "answer": "Estamos abiertos para recepción. Por favor contáctenos para confirmar horarios específicos de entrega y recogida.",
+      "category": "hours"
+    },
+    {
+      "id": "faq_location_en",
+      "lang": "en",
+      "q_variants": [
+        "Where are you located?",
+        "address",
+        "directions"
+      ],
+      "answer": "We are located at Teniente Juan de la Barrera 503, Colonia Héroes 20190 Aguascalientes, Mexico.",
+      "category": "general"
+    },
+    {
+      "id": "faq_location_es",
+      "lang": "es",
+      "q_variants": [
+        "¿Dónde están ubicados?",
+        "dirección",
+        "ubicación"
+      ],
+      "answer": "Estamos ubicados en Teniente Juan de la Barrera 503, Colonia Héroes 20190 Aguascalientes, México.",
+      "category": "general"
+    },
+    {
+      "id": "faq_contact_en",
+      "lang": "en",
+      "q_variants": [
+        "phone number",
+        "email",
+        "contact"
+      ],
+      "answer": "You can reach us at +52 449 448 5486 (WhatsApp) or email hotelmadagascarags@gmail.com.",
+      "category": "general"
+    },
+    {
+      "id": "faq_contact_es",
+      "lang": "es",
+      "q_variants": [
+        "teléfono",
+        "correo",
+        "contacto"
+      ],
+      "answer": "Puede contactarnos al +52 449 448 5486 (WhatsApp) o al correo hotelmadagascarags@gmail.com.",
+      "category": "general"
+    },
+    {
+      "id": "faq_included_en",
+      "lang": "en",
+      "q_variants": [
+        "what is included?",
+        "what do you offer?"
+      ],
+      "answer": "Our services include love, care, spacious play areas, individual rooms, and professional attention.",
+      "category": "services"
+    },
+    {
+      "id": "faq_included_es",
+      "lang": "es",
+      "q_variants": [
+        "¿qué incluye?",
+        "¿qué ofrecen?"
+      ],
+      "answer": "Nuestros servicios incluyen amor, cuidado, amplia área de juegos, cuartos individuales y atención profesional.",
+      "category": "services"
+    },
+    {
+      "id": "faq_meds_en",
+      "lang": "en",
+      "q_variants": [
+        "medicine",
+        "medication"
+      ],
+      "answer": "Yes, we can administer medications. Please provide detailed instructions and the medication.",
+      "category": "policy"
+    },
+    {
+      "id": "faq_meds_es",
+      "lang": "es",
+      "q_variants": [
+        "medicamentos",
+        "medicina"
+      ],
+      "answer": "Sí, podemos administrar medicamentos. Por favor proporcione instrucciones detalladas y el medicamento.",
+      "category": "policy"
+    }
+  ]
+}

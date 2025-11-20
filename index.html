@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Spa Hotel - Premium Pet Grooming, Boarding & Spa</title>
+
+  <meta name="description"
+    content="Luxury pet care services including professional grooming, overnight boarding, daycare, and spa treatments for your furry friend in Mexico. Book your appointment today!" />
+  <meta property="og:title" content="Dog Spa Hotel - Where Every Pup is Treated Like Royalty" />
+  <meta property="og:description"
+    content="Premium grooming, luxury boarding, and spa treatments. Book online or chat with our on-site assistant." />
+
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            // Core Brand Colors - Madagascar Lime (Vibrant, Energetic)
+            primary: {
+              DEFAULT: "hsl(74 76% 51%)",       // Vibrant Lime Green #D9F22E
+              foreground: "hsl(0 0% 10%)",      // Dark text on lime
+              light: "hsl(74 76% 60%)",         // Lighter lime
+              hover: "hsl(74 76% 45%)",         // Darker on hover
+              active: "hsl(74 76% 40%)",        // Even darker when active
+              glow: "hsl(74 76% 51%)",          // Lime glow
+            },
+            // Secondary - Jungle Green (Nature, Depth)
+            secondary: {
+              DEFAULT: "hsl(142 60% 25%)",      // Deep Jungle Green
+              foreground: "hsl(0 0% 100%)",     // White text
+              light: "hsl(142 50% 35%)",        // Lighter green
+              hover: "hsl(142 60% 20%)",        // Darker on hover
+              active: "hsl(142 60% 15%)",       // Darker when active
+            },
+            // Accent - Sunset Orange (Warmth, Highlights)
+            accent: {
+              DEFAULT: "hsl(35 90% 60%)",       // Warm Orange
+              foreground: "hsl(0 0% 100%)",     // White text
+              light: "hsl(35 90% 70%)",         // Lighter orange
+              hover: "hsl(35 90% 50%)",         // Darker on hover
+              active: "hsl(35 90% 45%)",        // Darker when active
+            },
+            // Neutrals - Warm Cream System
+            background: "hsl(60 20% 98%)",      // Warm Cream #FCFCF7
+            foreground: "hsl(0 0% 20%)",        // Dark Grey #333333
+            card: "hsl(0 0% 100%)",             // Pure White
+            "card-foreground": "hsl(0 0% 20%)",
+            popover: "hsl(0 0% 100%)",
+            "popover-foreground": "hsl(0 0% 20%)",
+            // Muted Colors
+            muted: {
+              DEFAULT: "hsl(60 10% 90%)",       // Light warm grey
+              foreground: "hsl(0 0% 40%)",      // Medium grey
+            },
+            // Borders & Inputs
+            border: "hsl(60 10% 85%)",          // Warm border
+            input: "hsl(60 10% 85%)",
+            ring: "hsl(74 76% 51%)",            // Lime ring
+            // Semantic Colors
+            destructive: "hsl(0 65% 51%)",      // Red
+            "destructive-foreground": "hsl(0 0% 100%)",
+            success: "hsl(142 70% 45%)",        // Green
+            "success-foreground": "hsl(0 0% 100%)",
+            warning: "hsl(38 90% 55%)",         // Orange
+            "warning-foreground": "hsl(0 0% 100%)",
+          },
+          borderRadius: {
+            lg: "0.75rem",
+            md: "calc(0.75rem - 2px)",
+            sm: "calc(0.75rem - 4px)",
+          },
+          keyframes: {
+            "accordion-down": { from: { height: "0", opacity: "0" }, to: { height: "var(--radix-accordion-content-height)", opacity: "1" } },
+            "accordion-up": { from: { height: "var(--radix-accordion-content-height)", opacity: "1" }, to: { height: "0", opacity: "0" } },
+            "fade-in": { "0%": { opacity: "0", transform: "translateY(10px)" }, "100%": { opacity: "1", transform: "translateY(0)" } },
+            "fade-in-up": { "0%": { opacity: "0", transform: "translateY(20px)" }, "100%": { opacity: "1", transform: "translateY(0)" } },
+            "slide-up-fade": { "0%": { transform: "translateY(100%)", opacity: "0" }, "100%": { transform: "translateY(0)", opacity: "1" } },
+            "scale-in": { "0%": { transform: "scale(0.95)", opacity: "0" }, "100%": { transform: "scale(1)", opacity: "1" } },
+            "shimmer": { "0%": { backgroundPosition: "-1000px 0" }, "100%": { backgroundPosition: "1000px 0" } },
+            "float": { "0%, 100%": { transform: "translateY(0px)" }, "50%": { transform: "translateY(-10px)" } },
+            "pulse-glow": { "0%, 100%": { opacity: "1" }, "50%": { opacity: "0.5" } },
+          },
+          animation: {
+            "accordion-down": "accordion-down 0.3s ease-out",
+            "accordion-up": "accordion-up 0.3s ease-out",
+            "fade-in": "fade-in 0.5s ease-out",
+            "fade-in-up": "fade-in-up 0.6s ease-out",
+            "slide-up-fade": "slide-up-fade 0.5s ease-out",
+            "scale-in": "scale-in 0.4s ease-out",
+            "shimmer": "shimmer 2s linear infinite",
+            "float": "float 3s ease-in-out infinite",
+            "pulse-glow": "pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-background text-foreground">
+
+  <div id="root">
+    <div class="min-h-screen flex items-center justify-center">
+      <p class="text-xl text-muted-foreground">Loading Dog Spa Hotel...</p>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin defer></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin defer></script>
+
+  <script src="https://unpkg.com/htm@3/dist/htm.umd.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/idb@7/build/umd.js" defer></script>
+
+  <!-- Shim for Lucide React UMD compatibility -->
+  <script src="src/js/react-shim.js" defer></script>
+
+  <script src="https://unpkg.com/lucide-react@0.395.0/dist/umd/lucide-react.js" defer></script>
+
+  <script type="module" src="src/js/main.js" defer></script>
+
+</body>
+
+</html>
