@@ -4,7 +4,7 @@ This project is a modern, single-page application for a luxury "Dog Spa Hotel." 
 
 This project is built to run **without any `npm` dependencies or build steps**, adhering to a "single-folder" architecture.
 
-**URL**: [Your GitHub Pages URL will go here]
+**URL**: https://harshil8136.github.io/Hotel-para-mascotas-Madagascar/
 
 ## How to Run This Project
 
@@ -85,4 +85,5 @@ The bot is designed to handle the following conversations:
 10. **Spanish Toggle:**
     * *(User clicks 'ES' button)*
     * **User:** "¿Cuál es su horario?"
+
     * **Bot:** "Abrimos de Lunes a Sábado de 8:00 AM a 6:00 PM..."
